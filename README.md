@@ -1,7 +1,5 @@
 # System Info (Node.js)
 
-# System Info (Node.js)
-
 A small Node.js CLI tool that displays basic system and network information in real time.
 
 ## What it shows
