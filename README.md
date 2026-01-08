@@ -7,7 +7,7 @@ A small Node.js CLI tool that displays basic system and network information in r
 - Username
 - User shell
 - Platform
-- Machine type (`os.machine()`)
+- Machine type
 - System architecture
 - Network information:
   - IP address
