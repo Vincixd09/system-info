@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/main.js"
+    "start": "node src/main.js",
+    "link": "npm link"
+  },
+  "bin": {
+    "system-info": "./src/main.js"
   },
   "keywords": [],
   "author": "",

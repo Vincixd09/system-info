@@ -18,6 +18,9 @@ export async function render() {
 
     console.log(`PC power-on time: ${ms(os.uptime() * 1000)}\n`);
 
+    const porsentaje = Math.floor(os.freemem() / 1e9) / Math.floor(os.totalmem() / 1e9) * 100
+    const porsentajeusdo = 100 - Math.floor(os.freemem() / 1e9) / Math.floor(os.totalmem() / 1e9) * 100
+
     console.log(`Total RAM memory: ${Math.floor(os.totalmem() / 1e9)}GB`);
-    console.log(`Remain: ${Math.floor(os.freemem() / 1e9)}GB`);
+    console.log(`Remain: ${Math.floor(os.freemem() / 1e9)}GB   ${porsentaje}% | Used ${porsentajeusdo}%`);
 } 
