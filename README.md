@@ -52,6 +52,7 @@ npm install
 You can link the project globally to call it from anywhere in your terminal:
 
 ```bash
+chmod +x src/main.js #Linux / macOS
 npm link
 ```
 

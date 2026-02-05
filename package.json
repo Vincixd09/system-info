@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/main.js",
-    "link": "npm link"
+    "start": "node src/main.js"
   },
   "bin": {
     "system-info": "./src/main.js"

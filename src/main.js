@@ -1,4 +1,5 @@
-import * as cmd from 'child_process';
+#!/usr/bin/env node
+
 import { render } from './render.js';
 
 setInterval(() => {
